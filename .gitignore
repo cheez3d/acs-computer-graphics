@@ -10,5 +10,6 @@
 
 # Application
 !.gitignore
+!LICENSE.txt
 !README.md
 !/Source/
