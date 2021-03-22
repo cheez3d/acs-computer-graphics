@@ -1,0 +1,14 @@
+/*
+
+# Visual Studio
+!/Property Sheets
+!/*.sln
+!/*.vcxproj
+!/*.vcxproj.user
+!/*.vcxproj.filters
+!/scripts/
+
+# Application
+!.gitignore
+!README.md
+!/Source/

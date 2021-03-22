@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{1d2eb2cb-c2cc-41b4-af6d-395b05f55a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{473dfab2-3e7d-432d-8e69-65aa99f48c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9494f307-c1ec-49c3-b3a2-e8bd3267d84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window">
+      <UniqueIdentifier>{a3d208ce-c616-4e32-9d2d-f8e8825c59cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GPU">
+      <UniqueIdentifier>{271e5bd2-7cb3-40b7-b2e5-5e343c58f910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers">
+      <UniqueIdentifier>{2940a1fd-9fef-46a7-93fb-a8241118d00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema3">
+      <UniqueIdentifier>{9cf79288-fd50-4ec6-8d3e-1a4cab1286a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema3\Shaders">
+      <UniqueIdentifier>{71c4209c-e5dd-4d0a-8f65-f4a23212e61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema1">
+      <UniqueIdentifier>{ef686ec2-d7a6-4db3-bdab-f8f91a8fded8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema2">
+      <UniqueIdentifier>{9f7bf719-ca5d-45b5-8845-65218a18415c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema2\Shaders">
+      <UniqueIdentifier>{fb17c22a-5737-4af6-b0b5-757e3821660b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Core\Engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\World.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Window\WindowObject.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\GPU\Shader.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\include\gl.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Core\Window\WindowCallbacks.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\GPU\Mesh.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\GPU\Texture2D.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Managers\TextureManager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component\CameraInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Window\InputController.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component\SimpleScene.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\GPU\GPUBuffers.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component\SceneInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema1\Meshes.cpp">
+      <Filter>Tema1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema1\Object2D.cpp">
+      <Filter>Tema1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema1\Arrow.cpp">
+      <Filter>Tema1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema1\Scene2D.cpp">
+      <Filter>Tema1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema1\Bow.cpp">
+      <Filter>Tema1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema1\Shuriken.cpp">
+      <Filter>Tema1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema1\Heart.cpp">
+      <Filter>Tema1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema1\Balloon.cpp">
+      <Filter>Tema1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema1\Playground.cpp">
+      <Filter>Tema1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema1\Space2D.cpp">
+      <Filter>Tema1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\Camera3D.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\FuelGauge.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\Light3D.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\Meshes.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\Object3D.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\Platform.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\Player.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\PlayerCamera.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\Playground.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\PlaygroundObject.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\Scene3D.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\Shaders.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\SmoothCamera.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\Textures.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema3\Renderable.cpp">
+      <Filter>Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema2\Camera3D.cpp">
+      <Filter>Tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema2\FuelIndicator.cpp">
+      <Filter>Tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema2\Meshes.cpp">
+      <Filter>Tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema2\Object3D.cpp">
+      <Filter>Tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema2\Platform.cpp">
+      <Filter>Tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema2\Player.cpp">
+      <Filter>Tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema2\PlayerCamera.cpp">
+      <Filter>Tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema2\Playground.cpp">
+      <Filter>Tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema2\Scene3D.cpp">
+      <Filter>Tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema2\Shaders.cpp">
+      <Filter>Tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tema2\Space3D.cpp">
+      <Filter>Tema2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Core\World.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\include\gl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\include\glm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\include\math.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\include\utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Window\WindowObject.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\GPU\Shader.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Window\WindowCallbacks.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\GPU\Mesh.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\GPU\Texture2D.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Managers\ResourcePath.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Managers\TextureManager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\CameraInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Window\InputController.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\SimpleScene.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\GPU\GPUBuffers.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component\SceneInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema1\Object2D.h">
+      <Filter>Tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema1\Arrow.h">
+      <Filter>Tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema1\Scene2D.h">
+      <Filter>Tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema1\Bow.h">
+      <Filter>Tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema1\Shuriken.h">
+      <Filter>Tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema1\Space2D.h">
+      <Filter>Tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema1\Collidable.h">
+      <Filter>Tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema1\Heart.h">
+      <Filter>Tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema1\Balloon.h">
+      <Filter>Tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema1\Playground.h">
+      <Filter>Tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema1\Transform2D.h">
+      <Filter>Tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Camera3D.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Collidable.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\FuelGauge.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Light3D.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Object3D.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Platform.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Player.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\PlayerCamera.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Playground.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\PlaygroundObject.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\PointLight.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Scene3D.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\SmoothCamera.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\SpotLight.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Transform3D.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Activable.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Cloneable.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Controllable.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Easing.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Gui.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Physics.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Random.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Renderable.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Timer.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema3\Watch.h">
+      <Filter>Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Activable.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Camera3D.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Collidable.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Controllable.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Easing.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\FuelIndicator.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Object3D.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Platform.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Player.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\PlayerCamera.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Playground.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Random.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Scene3D.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Space3D.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tema2\Transform3D.h">
+      <Filter>Tema2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Tema3\Shaders\Object3DFragment.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+    <None Include="Source\Tema3\Shaders\PlayerVertex.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+    <None Include="Source\Tema3\Shaders\RenderableFragment.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+    <None Include="Source\Tema3\Shaders\RenderableVertex.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+    <None Include="Source\Tema3\Shaders\Scene3DFragment.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+    <None Include="Source\Tema3\Shaders\Scene3DVertex.glsl">
+      <Filter>Tema3\Shaders</Filter>
+    </None>
+    <None Include="Source\Tema2\Shaders\Object3DFragment.glsl">
+      <Filter>Tema2\Shaders</Filter>
+    </None>
+    <None Include="Source\Tema2\Shaders\Object3DVertex.glsl">
+      <Filter>Tema2\Shaders</Filter>
+    </None>
+    <None Include="Source\Tema2\Shaders\PlayerVertex.glsl">
+      <Filter>Tema2\Shaders</Filter>
+    </None>
+    <None Include="Source\Tema1\README.md">
+      <Filter>Tema1</Filter>
+    </None>
+    <None Include="Source\Tema2\README.md">
+      <Filter>Tema2</Filter>
+    </None>
+    <None Include="Source\Tema3\README.md">
+      <Filter>Tema3</Filter>
+    </None>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
